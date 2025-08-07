@@ -19,7 +19,10 @@ firebase.initializeApp(firebaseConfig);
 // eslint-disable-next-line no-undef
 const messaging = firebase.messaging();
 
-messaging.onMessage((payload) => {
+// eslint-disable-next-line no-undef
+firebase.setLogLevel('debug');
+
+messaging.onBackgroundMessage((payload) => {
     console.log('test');
     const notificationTitle = payload.notification.title;
     const notificationOptions = {
