@@ -5,11 +5,14 @@ importScripts("https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js");
 importScripts(
     "https://www.gstatic.com/firebasejs/8.10.0/firebase-messaging.js"
 );
+
 const firebaseConfig = {
-    apiKey: 'AIzaSyARSGdBCb1A3rYDV_3lRjr6bPLJROq6Fic',
-    projectId: 'testproject-5ce7b',
-    messagingSenderId: '655770773574',
-    appId: '1:655770773574:android:82049260b6866ec5628247',
+    apiKey: "AIzaSyARSGdBCb1A3rYDV_3lRjr6bPLJROq6Fic",
+    authDomain: "testproject-5ce7b.firebaseapp.com",
+    projectId: "testproject-5ce7b",
+    storageBucket: "testproject-5ce7b.firebasestorage.app",
+    messagingSenderId: "655770773574",
+    appId: "1:655770773574:web:de18fa8cbfb9ebc9628247"
 };
 
 // eslint-disable-next-line no-undef
